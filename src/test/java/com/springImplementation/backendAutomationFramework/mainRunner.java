@@ -18,11 +18,13 @@ public class mainRunner {
 		honda.configuration1();
 		honda.gear();*/
 		
+		
+		
 	ApplicationContext factory=new AnnotationConfigApplicationContext(AppConfig.class);
 		
 	 Bike b=factory.getBean(Bike.class);
 	 b.configuration();
-		
+		System.out.println("vikas");
 
 	 
 	 
